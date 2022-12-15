@@ -68,11 +68,11 @@ a {
     border-bottom: 1px solid #ECECEC;
 }
 
-.nav-item__letter {
+.letter {
     color: var(--accent);
 }
 
-.nav-item__link {
+.header-logo {
     font-family: 'Raleway', sans-serif ;
     font-weight: 700;
     font-size: 26px;
@@ -719,7 +719,7 @@ padding: 0;
     border-radius: 2px;
 }
 
-.container-nav {
+.header-nav {
     display: flex;
     align-items: center;
     justify-content: space-between
