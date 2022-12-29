@@ -618,7 +618,7 @@ textarea {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-footer {
+.address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -676,7 +676,7 @@ textarea {
     color: var(--secondary-color);
 }
 
-.logo-footer {
+.footer__link {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -695,7 +695,7 @@ padding: 0;
     color: var(--accent);
 }
 
-.address-footer:hover, .address-footer:focus {
+.address:hover, .address:focus {
     color: var(--accent);
 }
 
@@ -936,16 +936,16 @@ padding: 0;
     background-color: var(--accent);
 }
 
-.flex {
+.container--flex {
     display: flex;
     align-items: baseline;
 }
 
-.footer-box {
+.contact-info {
     margin-right: 70px;
 }
 
-.footer-join {
+.social-media {
     margin-right: 93px;
 }
 
