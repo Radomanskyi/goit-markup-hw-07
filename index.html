@@ -44,50 +44,50 @@
 
     <section class="hero">
         <div class="container">
-            <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-            <button data-modal-open type="button" class="hero-button">Замовити послугу</button>
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <button data-modal-open type="button" class="hero__button">Замовити послугу</button>
         </div>
     </section>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <form class="form">
-                <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
-                <div class="form-field">
-                    <label for="name" class="name-text">Ім'я</label>
-                    <div class="icon-name">
-                        <input type="text" name="name" id="name" class="field-input">
-                            <svg class="icon-modal" width="18" height="18">
+            <form class="modal__form">
+                <p class="modal__text">Залиште свої дані, ми вам передзвонимо</p>
+                <div class="modal__field">
+                    <label for="name" class="modal__field-cap">Ім'я</label>
+                    <div class="modal__name-field">
+                        <input type="text" name="name" id="name" class="modal__field-input">
+                            <svg class="modal__icon" width="18" height="18">
                                 <use href="./images/symbol-defs.svg#icon-person-black"></use>
                             </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label for="tel" class="name-text">Телефон</label>
-                    <div class="icon-phone">
-                        <input type="tel" name="tel" id="tel" class="field-input">
-                            <svg class="icon-modal" width="18" height="18">
+                <div class="modal__field">
+                    <label for="tel" class="modal__field-cap">Телефон</label>
+                    <div class="modal__tel-field">
+                        <input type="tel" name="tel" id="tel" class="modal__field-input">
+                            <svg class="modal__icon" width="18" height="18">
                                 <use href="./images/symbol-defs.svg#icon-phone-black"></use>
                             </svg>
                     </div>
                 </div>
-                <div class="form-field">
-                    <label for="mail" class="name-text">Пошта</label>
-                    <div class="icon-mail">
-                        <input type="email" name="mail" id="mail" class="field-input">
-                            <svg class="icon-modal" width="18" height="18">
+                <div class="modal__field">
+                    <label for="mail" class="modal__field-cap">Пошта</label>
+                    <div class="modal__email-field">
+                        <input type="email" name="mail" id="mail" class="modal__field-input">
+                            <svg class="modal__icon" width="18" height="18">
                                 <use href="./images/symbol-defs.svg#icon-email-black"></use>
                             </svg>
                     </div>
                 </div>
-                <div class="form-field last-form-field">
-                    <label for="comment" class="name-text">Коментар</label>
-                    <textarea class="comment" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+                <div class="modal__field modal__field--end">
+                    <label for="comment" class="modal__field-cap">Коментар</label>
+                    <textarea class="modal__comment" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
                 </div>
-                    <div class="agree">
-                        <label class="checkbox-text">
-                            <input type="checkbox" name="policy" class="checkbox"/>
-                            <span class="checkbox-icon">
+                    <div class="modal__mailing-agreement">
+                        <label class="modal__checkbox">
+                            <input type="checkbox" name="policy" class="modal__checkbox-field"/>
+                            <span class="modal__checkbox-icon">
                                 <svg width="16" height="15">
                                     <use href="./images/symbol-defs.svg#icon-check"></use>
                                 </svg>
