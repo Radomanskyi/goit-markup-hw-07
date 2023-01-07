@@ -4,9 +4,15 @@
 /*Base*/
 @import "./base/base";
 @import "./base/reset";
+@import "./base/etc";
 
 /*Components*/
 @import "./components/hero";
+@import "./components/benefits";
+@import "./components/we-are-doing";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/projects";
 @import "./components/buttons";
 
 /*Layout*/
